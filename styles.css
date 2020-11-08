@@ -67,10 +67,10 @@ nav {
 
 .landing-big {
   text-align: center;
-  padding-top: 5rem;
+  padding-top: 13vh;
 }
 .big-text {
-  font-size: 4.5rem;
+  font-size: 12vh;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -78,15 +78,12 @@ nav {
   color: rgb(246, 196, 217);
 }
 .landing-sub {
-  position: absolute;
-  left: 50%;
-  top: 52.5%;
-  transform: translate(-50%, -52.5%);
+  text-align: center;
 }
 
 .subtitle-text {
   font-family: "Montserrat", sans-serif;
-  font-size: 2rem;
+  font-size: 5vh;
   font-weight: 200;
 }
 
@@ -103,7 +100,7 @@ nav {
   color: rgb(1, 100, 100);
 }
 .mission-text {
-  padding: 2rem rem;
+  padding: 2rem 20%;
   padding-bottom: 1.5rem;
   text-align: center;
   line-height: 1.5rem;
