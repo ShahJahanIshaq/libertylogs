@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  font-family: "Lato", sans-serif;
+}
+.landing {
+  min-height: 110vh;
+  font-family: "Montserrat", sans-serif;
+  background: rgb(0, 60, 60);
+  background-size: cover;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 13vh;
+  box-shadow: 0px 2px 1px rgba(100, 100, 100, 0.3);
+  padding: 0rem 10vh;
+  background: linear-gradient(to top, rgb(1, 60, 60), rgba(0, 0, 0, 0.02));
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  padding-bottom: 0rem;
+}
+.social-logos {
+  width: 45%;
+  height: auto;
+  padding-right: 0.5rem;
+  filter: invert(100%);
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 10vh;
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+}
+.nav-links li {
+  padding-left: 3rem;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+}
+.nav-links li:hover {
+  text-decoration: underline;
+}
+
+#logo {
+  font-size: 3.5rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: "Montserrat", sans-serif;
+}
+
+.landing-big {
+  text-align: center;
+  padding-top: 5rem;
+}
+.big-text {
+  font-size: 4.5rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+#landing-sub {
+  color: rgb(246, 196, 217);
+}
+.landing-sub {
+  position: absolute;
+  left: 50%;
+  top: 52.5%;
+  transform: translate(-50%, -52.5%);
+}
+
+.subtitle-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  font-weight: 200;
+}
+
+.mission {
+  min-height: 70vh;
+}
+#mission-big-text {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 200;
+  letter-spacing: -1px;
+  font-family: "PT Sans Narrow", sans-serif;
+  padding-top: 2%;
+  color: rgb(1, 100, 100);
+}
+.mission-text {
+  padding: 2rem rem;
+  padding-bottom: 1.5rem;
+  text-align: center;
+  line-height: 1.5rem;
+  font-family: "Lato", sans-serif;
+}
+#mission-text-founder {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+}
+#signature-img {
+  display: block;
+  transform: scale(0.75, 0.75);
+  padding-top: 0.75rem;
+  margin: auto;
+}
+@font-face {
+  font-family: Redwing-Light;
+  src: url(/fonts/Redwing-Light.otf);
+}
+@font-face {
+  font-family: Redwing-Medium;
+  src: url(/fonts/Redwing-Medium.otf);
+}
+@font-face {
+  font-family: Apex-Light;
+  src: url(/fonts/Apex\ Mk3-ExtraLight.otf);
+}
+@font-face {
+  font-family: Apex-Medium;
+  src: url(/fonts/Apex\ Mk3-Medium.otf);
+}
